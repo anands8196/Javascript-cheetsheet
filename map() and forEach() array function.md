@@ -1,8 +1,5 @@
 # Javascript-cheetsheet
-
-
 ## Array methods: Array.prototype.map() and Array.prototype.forEach().
-
 ### what’s the difference  Between Map & ForEach 
 
 #### Definition
@@ -45,8 +42,6 @@ Map:
     // doubled = [2, 4, 6, 8, 10]
 
 #### Speed Considerations
-
-
 'jsPerf' is a great website for testing the speed of different JavasScript methods and functions.
 HforEach() was more than 70% slower than map(). 
 It’s important to also understand that using map() may be preferable if you favor functional programming.
@@ -80,9 +75,6 @@ Result:
     arr2 = [6, 8, 10] 
 
 What we’re doing above is first mapping over arr and multiplying every element in the array times 2. After this, we filter through the array and only save the elements that are greater than 5. This leaves us with a final arr2 of [6,8,10].
-
-JavaScript — Learn to Chain Map, Filter, and Reduce.
-
 
     Just about anything you can do with forEach() you can do with map(), and vise versa.
     map() allocates memory and stores return values. forEach() throws away return values and always returns undefined.
