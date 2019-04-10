@@ -19,6 +19,7 @@ Here is a list of most common array methods in JavaScript.
 
 	slice()     // Returns desired elements in a new array  
 	concat()    // Append one or more arrays with given array
+	splice() // working on it
 
 ----------
 
@@ -157,3 +158,9 @@ Lastly, there’re couple of more methods that are super important to know and v
 `**concat**`  method will create a new array containing all the elements in the original array followed by the each of the arrays that are passed in. This method will not mutate the original array.
 
 `Note`: You can pass in more than one array as arguments.
+
+#### splice()
+
+	working on it
+
+
